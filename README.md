@@ -29,7 +29,7 @@
     <form action="#">
         <label for="name">Name:</label>
         <input type="text" id="name" placeholder="Your name">
-        <p style="font-size: 20px; color:rgba(0, 0, 0, 0.486)"><b>Sex:</b></p>
+        <p style="font-size: 20px; color:rgba(0, 0, 0, 0.486); margin-bottom:0;"><b>Sex:</b></p>
 
         <input type="radio" id="male">
         <label for="male">Male</label>
@@ -40,7 +40,7 @@
         <input type="radio"id="other">
         <label for="other">Other</label>
 
-        <p><b>A python dictionary; (Select all that apply)</b></p>
+        <p style="margin-bottom:0;"><b>A python dictionary; (Select all that apply)</b></p>
 
         <input type="checkbox" id="1">
         <label for="1">is a collection of rows,</label>
